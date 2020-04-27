@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1045438403812",
+    "firebase_url": "https://mcchs-9104a.firebaseio.com",
+    "project_id": "mcchs-9104a",
+    "storage_bucket": "mcchs-9104a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045438403812:android:ef8fd5c18772b3794a48f1",
+        "android_client_info": {
+          "package_name": "com.example.mcchs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045438403812-75b17o91c6gjed2p7t7bb2hojhuv3ccj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4CjLfYAnKB2ctghZubmE_yFbh1LVr9bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045438403812-75b17o91c6gjed2p7t7bb2hojhuv3ccj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

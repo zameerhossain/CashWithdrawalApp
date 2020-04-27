@@ -1,0 +1,21 @@
+Navigator.push(context,
+ MaterialPageRoute(builder: (context)=>NewsEventDetail_page(detail : _detail1,headline:_head,image:_image1)),
+   );
+   Navigator.pushNamed(context, '/Other_Request');
+
+
+
+
+
+
+
+   StorageReference storageReference = FirebaseStorage.instance
+          .ref()
+          .child('profile_pic/bbc${Path.extension(_selectedUserPhoto.path)}');
+
+    StorageUploadTask uploadTask = storageReference.putFile(_selectedUserPhoto);
+      final StorageTaskSnapshot downloadUrl = await uploadTask.onComplete;
+      print(Path.basename(_selectedUserPhoto.path));
+      print('File Uploaded');
+      _userPhotoUrl = (await downloadUrl.ref.getDownloadURL());
+      print(_userPhotoUrl);
